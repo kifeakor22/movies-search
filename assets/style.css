@@ -22,6 +22,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    margin: 50px;
 }
 header {
     text-align: center;
@@ -34,26 +35,9 @@ h2 {
     text-align: center;
 }
 
-.card {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-    color: hsl(206, 17%, 28%);
-    font-size: 18px;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 30px 40px;
+#add-movie{
+    display: flex;
 }
-
-.card-header::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: #e7e9eb;
-    height: 2px;
-}
-
 
 
 .labels {
